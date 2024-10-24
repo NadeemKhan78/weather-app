@@ -1,0 +1,52 @@
+/* ******************** */
+/* BELOW 500px */
+/* ******************** */
+
+@media (max-width: 31.5rem) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/* ******************* */
+/* BELOW 380px */
+/* ******************* */
+
+@media (max-width: 23rem) {
+  html {
+    font-size: 70%;
+  }
+
+  .weather--box {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .search--bar {
+    width: 13rem;
+  }
+}
+
+/* ******************* */
+/* BELOW 305px */
+/* ******************* */
+
+@media (max-width: 19rem) {
+  .city {
+    font-size: 1.3rem;
+  }
+}
+
+/* ******************* */
+/* BELOW 270px */
+/* ******************* */
+
+@media (max-width: 17rem) {
+  .description {
+    font-size: 1rem;
+  }
+
+  .search--bar {
+    width: 12rem;
+  }
+}
